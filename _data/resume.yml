@@ -10,10 +10,10 @@ jobtitle: "数据挖掘/自然语言处理/数据分析/Python后端/测试" #�
 #联系方式
 contact: #联系方式连接等3~5行
 - text: "coffeechocolate@foxmail.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+  href: 'mailto:coffeechocolate@foxmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "18860879476"
-  href: 'tel:1234567890'
+  href: 'tel:18860879476'
   icon: 'icons/phone.svg'
 # - text: "your-website.com"
 #   href: 'http://your-website.com'
@@ -50,12 +50,12 @@ main: #简历主要内容，
   - title: 其他技能
     summary: Linux系统、Git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程,PPT,visio等软件)、英语六级471
 
-- type: experience
-  name: 经验
-  content:
-  - title: 金融科技岗
-    sub: 中国民生银行上海分行
-    duration: "2022年11月 - 2023年1月"
+# - type: experience
+#   name: 经验
+#   content:
+#   - title: 金融科技岗
+#     sub: 中国民生银行上海分行
+#     duration: "2022年11月 - 2023年1月"
 #     tags:
 #     - 标签
 #     summary: 职务或者工作总结(自动折叠)
@@ -71,7 +71,7 @@ main: #简历主要内容，
 #     detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 项目
   content:
   - title: 基于共现法的分词算法研究
     duration: 2020年12月 - 2022年6月
