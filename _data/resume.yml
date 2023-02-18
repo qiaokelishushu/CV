@@ -48,7 +48,7 @@ main: #简历主要内容，
     - SQL(Leetcode 中等题AC)
 #     - 语言3
   - title: 其他技能
-    summary: Linux系统、Git版本控制系统、Tableau、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程,PPT,visio等软件)、英语六级471
+    summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程,PPT,visio等软件)、英语六级471
 
 # - type: experience
 #   name: 经验
