@@ -39,16 +39,16 @@ main: #简历主要内容，
     sub: 土木工程
     detail: 绩点排名：5/97  学习课程：高等数学，概率论与数理统计，大学物理，线性代数，工程力学，流体力学，结构力学，材料力学
 
-- type: skills
+- type: 技能
   # name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - python
-    - SQL
+    - python(熟悉numpy库、gensim库、pandas库；熟练运用phrase模型、LDA 模型、word2vec 模型、Bilstm-CRF 模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等)
+    - SQL(Leetcode 中等题AC)
 #     - 语言3
-#   - title: Skill Group
-#     summary: Consectetur, Adipiscing, Elit
+  - title: 其他技能
+    summary: linux系统、git版本控制系统、tableu、powerbi可视化、MSoffice二级(熟练使用excel中VBA编程,PPT,visio等软件)、英语六级471
 
 # - type: experience
 #   name: 经验
