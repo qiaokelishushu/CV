@@ -4,7 +4,7 @@
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "朱熙"
-jobtitle: "数据挖掘/自然语言处理/数据分析/python后端/测试" #可空不显示
+jobtitle: "数据挖掘/自然语言处理/数据分析/Python后端/测试" #可空不显示
 
 
 #联系方式
@@ -48,7 +48,7 @@ main: #简历主要内容，
     - SQL(Leetcode 中等题AC)
 #     - 语言3
   - title: 其他技能
-    summary: Linux系统、Git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用excel中VBA编程,PPT,visio等软件)、英语六级471
+    summary: Linux系统、Git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程,PPT,visio等软件)、英语六级471
 
 # - type: experience
 #   name: 经验
