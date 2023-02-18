@@ -3,25 +3,25 @@
 
 title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "求职意向" #可空不显示
+name: "朱熙"
+jobtitle: "数据挖掘/自然语言处理/数据分析/python后端/测试" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
+- text: "coffeechocolate@foxmail.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
+- text: "18860879476"
   href: 'tel:1234567890'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
-  icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
+# - text: "your-website.com"
+#   href: 'http://your-website.com'
+#   icon: 'icons/web.svg'
+# - text: "GitHubID"
+#   href: 'https://github.com/NewFuture'
+#   icon: "icons/github.svg"
+#   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
@@ -30,77 +30,86 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 山西财经大学
+    duration: "2020年9月 - 2022年6月"
+    sub: 图书情报(信息资源管理)
+    detail: 绩点排名：2/38  学习课程：数据库系统概论，python程序设计，数据挖掘，信息检索理论与技术，信息安全，图书情报理论研究
+  - title: 江苏大学京江学院
+    duration: "2015年9月 - 2019年6月"
+    sub: 土木工程
+    detail: 绩点排名：5/97  学习课程：高等数学，概率论与数理统计，大学物理，线性代数，工程力学，流体力学，结构力学，材料力学
 
 - type: skills
   # name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - python
+    - SQL
+#     - 语言3
+#   - title: Skill Group
+#     summary: Consectetur, Adipiscing, Elit
 
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# - type: experience
+#   name: 经验
+#   content:
+#   - title: 金融科技岗
+#     sub: 中国民生银行上海分行
+#     duration: "2022年11月 - 2023年1月"
+#     tags:
+#     - 标签
+#     summary: 职务或者工作总结(自动折叠)
+#     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+#     # open: open
+#     #可以设置open默认展开
+#   - title: Job Title
+#     sub: Your 2nd, Inc.  
+#     duration: Apr 2013 - Mar 2016
+#     tags: 
+#     - tagname
+#     summary: Summary your job or work. (Collapse)
+#     detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
   name: Projects
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+  - title: 基于共现法的分词算法研究
+    duration: 2020年12月 - 2022年6月
+    detail: 项目简介：结合共现分析法，改进jieba分词算法的分词准确率。
+    主要工作：利用共现法计算词与词之间的共现次数，将共现次数高的组合成词组，设定共现阈值，使jieba分词法不将高于这一共现阈值的词组错误分开
+    项目成果：提升了jieba分词算法的准确率
+    
+  - title: 网络平台评价指标模型构建
+    duration: 2020年9月 - 2022年6月
+    detail: 项目简介：结合机器学习的聚类方法和爬虫技术，构建基于用户评论实时的评价指标体系模型
+    主要工作：本文利用Python语言对相关平台进行评论爬取，采用LDA模型对用户评论进行隐含语义挖掘，提取出评价指标
+    项目成果：根据主题聚类算法从用户评论中提取评价指标的方式更切合用户习惯。
+
+  - title: 基于机器学习的基金最大回撤恢复天数算法研究
+    duration: 2022年12月 - 2023年2月
+    detail: 项目简介：计算某基金从最大回撤结束日期到后续超越回撤前的峰值状态日期的天数
+    主要工作：利用python语言爬取基金数据，采用Numpy，和pandas方法计算最大回撤恢复天数
+    项目成果：构建了某一基金最大回撤恢复天数实时计算模型
+    
+
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+  name: '发表论文'
+  content: 第三届数据分析与知识发现（CSSCI）学术研讨会会议论文一篇，题为《基于LDA 和社会网络分析的电影评价体系构建及实证研究》
+#   - 单行文字
+#   - title: "加粗:"
+#     text: "列表项二"
+#   - title: "兴趣:"
+#     items: #单行列表
+#     - 睡觉
+#     - 吃饭
+#     - coding
+#   - title: 列表
+#     list:
+#     - 第一项
+#     - 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
