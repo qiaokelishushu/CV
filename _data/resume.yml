@@ -50,12 +50,12 @@ main: #简历主要内容，
   - title: 其他技能
     summary: Linux系统、Git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程,PPT,visio等软件)、英语六级471
 
-# - type: experience
-#   name: 经验
-#   content:
-#   - title: 金融科技岗
-#     sub: 中国民生银行上海分行
-#     duration: "2022年11月 - 2023年1月"
+- type: experience
+  name: 经验
+  content:
+  - title: 金融科技岗
+    sub: 中国民生银行上海分行
+    duration: "2022年11月 - 2023年1月"
 #     tags:
 #     - 标签
 #     summary: 职务或者工作总结(自动折叠)
