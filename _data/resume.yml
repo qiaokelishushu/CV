@@ -33,7 +33,7 @@ main: #简历主要内容，
   - title: 山西财经大学
     duration: "2020年9月 - 2022年6月"
     sub: 图书情报(信息资源管理)
-    detail: 硕士研究生学历，绩点排名：2/38  学习课程：数据库系统概论，python程序设计，数据挖掘，信息检索理论与技术，信息安全，图书情报理论研究
+    detail: 硕士研究生学历，绩点排名：2/38  学习课程：数据库系统概论，Python程序设计，数据挖掘，信息检索理论与技术，信息安全，图书情报理论研究
   - title: 江苏大学京江学院
     duration: "2015年9月 - 2019年6月"
     sub: 土木工程
@@ -44,11 +44,11 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - python(熟悉numpy库、gensim库、pandas库；熟练运用phrase模型、LDA 模型、word2vec 模型、Bilstm-CRF 模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等)
+    - Python(熟悉NumPy库、Gensim库、Pandas库；熟练运用Phrase模型、LDA 模型、Word2vec 模型、Bilstm-CRF 模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等)
     - SQL(Leetcode 中等题AC)
 #     - 语言3
   - title: 其他技能
-    summary: linux系统、git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用excel中VBA编程,PPT,visio等软件)、英语六级471
+    summary: Linux系统、Git版本控制系统、Tableu、PowerBi可视化、计算机二级MS office(熟练使用excel中VBA编程,PPT,visio等软件)、英语六级471
 
 # - type: experience
 #   name: 经验
@@ -88,7 +88,7 @@ main: #简历主要内容，
   - title: 基于机器学习的基金最大回撤恢复天数算法研究
     duration: 2022年12月 - 2023年1月
     detail: 项目简介：计算某基金从最大回撤结束日期到后续超越回撤前的峰值状态日期的天数。
-            主要工作：利用python语言爬取基金数据，采用Numpy，和pandas方法计算最大回撤恢复天数。
+            主要工作：利用Python语言爬取基金数据，采用NumPy，和Pandas方法计算最大回撤恢复天数。
             项目成果：构建了某一基金实时最大回撤恢复天数计算模型。
     
 
