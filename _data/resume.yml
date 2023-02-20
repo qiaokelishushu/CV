@@ -33,11 +33,11 @@ main: #简历主要内容，
   - title: Shanxi University of Finance and Economics
     duration: "2020.9 - 2022.6"
     sub: information science
-    detail: Master degree, GPA rank:2/38 course of study:Introduction to database systems, Python programming, data mining, information retrieval theory and technology
+    detail: Master degree, GPA rank:2/38 course of study:Introduction to database system, Python programming, data mining, information retrieval theory and technology, information security, library and information theory research
   - title: Jingjiang College of Jiangsu University
     duration: "2015.9 - 2019.6"
     sub: civil engineering
-    detail: Bachelor degree, GPA rank:5/97 course of study:High -level mathematics, probability theory and mathematical statistics, university physics, linear algebra, engineering mechanics
+    detail: Bachelor degree, GPA rank:5/97 course of study:Advanced Mathematics, probability theory and mathematical statistics, college physics, linear algebra, engineering mechanics, fluid mechanics, structural mechanics, mechanics of materials
 
 - type: Skills
   name: "Skills"
@@ -75,21 +75,21 @@ main: #简历主要内容，
   content:
   - title: Research on word segmentation algorithm based on co-occurrence
     duration: 2020.9 - 2021.6
-    detail: Project description: to improve the word segmentation accuracy of Jieba word segmentation algorithm by combining co-occurrence analysis.
-            Main tasks: Use the common number of words between the words and words of the common current method, and combine the high number of words with a high number of words to form a common threshold.separate.
-            Project results: The accuracy of the Jieba word split algorithm is improved.
+    detail: Project description:to improve the word segmentation accuracy of Jieba word segmentation algorithm by combining co-occurrence analysis.
+            Main tasks:Use the common number of words between the words and words of the common current method, and combine the high number of words with a high number of words to form a common threshold.separate.
+            Project results:The accuracy of the Jieba word split algorithm is improved.
     
   - title: Network platform evaluation index model construction
     duration: 2020.12 - 2022.6
-    detail: Project description: A real-time Evaluation Index System model based on user comments is constructed by combining machine learning Clustering Method and crawler technology.
-            Main tasks: This article uses Python language to crawl relevant platform user reviews, uses the LDA model to use hidden semantic excavations to user reviews, and extract evaluation indicators.
-            Project results: The method of using the theme cluster algorithm to extract the evaluation indicators from the user's comment is more in line with user habits.
+    detail: Project description:A real-time Evaluation Index System model based on user comments is constructed by combining machine learning Clustering Method and crawler technology.
+            Main tasks:This article uses Python language to crawl relevant platform user reviews, uses the LDA model to use hidden semantic excavations to user reviews, and extract evaluation indicators.
+            Project results:The method of using the theme cluster algorithm to extract the evaluation indicators from the user's comment is more in line with user habits.
 
   - title: Research on the maximum retracement and recovery of funds based on machine learning
     duration: 2022.12 - 2023.1
-    detail: Project description: Calculate the number of days from the maximum retracement date to the number of peak status date before the retreat.
-            Main tasks: use Python language climbing fund data, use Numpy, and Pandas method to calculate the maximum retracement recovery days.
-            Project result: a model for calculating the maximum withdrawal recovery days of a fund in real time was constructed.
+    detail: Project description:Calculate the number of days from the maximum retracement date to the number of peak status date before the retreat.
+            Main tasks:use Python language climbing fund data, use Numpy, and Pandas method to calculate the maximum retracement recovery days.
+            Project result:a model for calculating the maximum withdrawal recovery days of a fund in real time was constructed.
     
 
 
