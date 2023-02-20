@@ -44,8 +44,8 @@ main: #简历主要内容，
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - Python(熟悉NumPy库、Gensim库、Pandas库；熟练运用Phrase模型、LDA 模 型、Word2vec 模型、Bilstm-CRF 模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等)
-    - SQL(Leetcode 中等题AC)
+    - Python(熟悉NumPy库、Gensim库、Pandas库；熟练运用Phrase模型、LDA模型、Word2vec模型、Bilstm-CRF模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等)
+    - SQL(Leetcode 中等题AC) 
 #     - 语言3
   - title: 其他技能
     summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用Excel中VBA编程、熟练使用PPT、visio等办公软件)、英语六级471
