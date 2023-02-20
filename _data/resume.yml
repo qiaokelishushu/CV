@@ -33,11 +33,11 @@ main: #简历主要内容，
   - title: Shanxi University of Finance and Economics
     duration: "2020.9 - 2022.6"
     sub: information science
-    detail: Master degree, GPA rank: 2/38 course of study: Introduction to database systems, Python programming, data mining, information retrieval theory and technology
+    detail: Master degree, GPA rank:2/38 course of study:Introduction to database systems, Python programming, data mining, information retrieval theory and technology
   - title: Jingjiang College of Jiangsu University
     duration: "2015.9 - 2019.6"
     sub: civil engineering
-    detail: Bachelor degree, GPA rank: 5/97 course of study: High -level mathematics, probability theory and mathematical statistics, university physics, linear algebra, engineering mechanics
+    detail: Bachelor degree, GPA rank:5/97 course of study:High -level mathematics, probability theory and mathematical statistics, university physics, linear algebra, engineering mechanics
 
 - type: Skills
   name: "Skills"
