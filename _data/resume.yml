@@ -89,7 +89,7 @@ main: #简历主要内容，
     duration: 2022.12 - 2023.1
     detail: Project description:Calculate the number of days from the maximum retracement date to the number of peak status date before the retreat.
             Main tasks:use Python language climbing fund data, use Numpy, and Pandas method to calculate the maximum retracement recovery days.
-            Project result:a model for calculating the maximum withdrawal recovery days of a fund in real time was constructed.
+            Project results:a model for calculating the maximum withdrawal recovery days of a fund in real time was constructed.
     
 
 
