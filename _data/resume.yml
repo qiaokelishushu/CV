@@ -4,7 +4,7 @@
 title: "Resume Title"
 lang: "en" #语言设置 zh表示中文 en 表示英语
 name: "Chu Hee"
-jobtitle: "Data mining/natural language processing/data analysis/python back end/test" #可空不显示
+jobtitle: "Data mining/natural language processing/data analysis/python/test" #可空不显示
 
 
 #联系方式
@@ -44,8 +44,8 @@ main: #简历主要内容，
   content:
   - title: programing language
     items: #itmems 可以小块的方式显示
-    - Python(Familiar with the Numby Library, Gensim Library, PANDAS Library; proficient in using the PHRASE model, LDA model, Word2vec model, Bilstm-CRF model, Hidden Marcov model, perceptual classification, conditional with airport sequence, text clustering, text cluster,Linear regression, logical regression, decision tree model, random forest algorithm, Bayesian network, etc.)
-    - SQL(Leetcode Medium AC) 
+    - Python(Familiar with the Numby, Gensim, PANDAS; proficient in using the PHRASE model, LDA, Word2vec, Bilstm-CRF, Hidden Marcov model, perceptual classification, conditional with airport sequence, text clustering, Linear regression, logical regression, decision tree model, random forest algorithm, Bayesian network, etc.)
+    - SQL(Leetcode Medium) 
 #     - 语言3
   - title: Other skills
     summary: Linux system, GIT version control system, Tableau visualization, PowerBi visualization, computer secondary MS Office (proficient in using VBA programming in Excel, PPT, VISIO and other office software)、CET6 471
