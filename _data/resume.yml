@@ -44,7 +44,7 @@ main: #简历主要内容，
   content:
   - title: programing language
     items: #itmems 可以小块的方式显示
-    - Python(Familiar with the Numby, Gensim, PANDAS; proficient in using the PHRASE model, LDA, Word2vec, Bilstm-CRF, Hidden Marcov model, perceptual classification, conditional with airport sequence, text clustering, Linear regression, logical regression, decision tree model, random forest algorithm, Bayesian network, etc.)
+    - Python(Familiar with the NumPy, Gensim, PANDAS; Proficient in using the PHRASE, LDA, Word2vec, Bilstm-CRF, Hidden Marcov model, perceptual classification, conditional with airport sequence, text clustering, Linear regression, logical regression, decision tree model, random forest algorithm, Bayesian network, etc.)
     - SQL(Leetcode Medium) 
 #     - 语言3
   - title: Other skills
