@@ -48,14 +48,14 @@ main: #简历主要内容，
     - SQL(Leetcode Medium) 
 #     - 语言3
   - title: Other skills
-    summary: Linux system, GIT version control system, Tableau visualization, PowerBi visualization, computer secondary MS Office (proficient in using VBA programming in Excel, PPT, VISIO and other office software)、CET6 471
+    summary: Lawyer qualification certificate, Linux system, GIT version control system, Tableau visualization, PowerBi visualization, computer secondary MS Office (proficient in using VBA programming in Excel, PPT, VISIO and other office software)、CET6 471
 
 - type: experience
   name: Experience
   content:
   - title: Fintech
     sub:  China Minsheng Banking Corp Shanghai branch
-    duration: "2022.11 - 2023.1"
+    duration: "2022.6 - 2023.2"
 #     tags:
 #     - 标签
 #     summary: 职务或者工作总结(自动折叠)
