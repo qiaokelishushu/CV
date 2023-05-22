@@ -12,8 +12,8 @@ contact: #联系方式连接等3~5行
 - text: "coffeechocolate@foxmail.com" #文本内容
   href: 'mailto:coffeechocolate@foxmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "18860879476"
-  href: 'tel:18860879476'
+- text: "19392713532"
+  href: 'tel:19392713532'
   icon: 'icons/phone.svg'
 # - text: "your-website.com"
 #   href: 'http://your-website.com'
