@@ -48,8 +48,7 @@ main: #简历主要内容，
     - SQL
 #     - 语言3
   - title: 其他技能
-    summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用PPT、visio等办公软件)、英语六级、Xmind、Axure;具有沟通、问题解决、创新思维、注
-重细节、研究、团队合作等能力
+    summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用PPT、visio等办公软件)、英语六级、Xmind、Axure;具有沟通、问题解决、创新思维、注重细节、研究、团队合作等能力
 
 - type: experience
   name: 工作经验
