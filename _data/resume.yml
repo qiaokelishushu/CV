@@ -37,7 +37,7 @@ main: #简历主要内容，
   - title: Jiangsu University Jingjiang College
     duration: "2015.9 - 2019.6"
     sub: Civil Engineering
-    detail: Bachelor's degree,GPA ranking: 5/97 Courses studied: Advanced Mathematics, Probability Theory and Mathematical Statistics, College Physics, Linear Algebra, Engineering Mechanics, Fluid Mechanics, Structural Mechanics, Material Mechanics
+    detail: Bachelor's degree,GPA ranking:5/97 Courses studied: Advanced Mathematics, Probability Theory and Mathematical Statistics, College Physics, Linear Algebra, Engineering Mechanics, Fluid Mechanics, Structural Mechanics, Material Mechanics
 
 - type: skill
   name: "Skills"
