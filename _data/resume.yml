@@ -132,16 +132,16 @@ main: #简历主要内容，
 #  - 单行文字
 #  - 如果有可以继续添加
 
-# footer 脚注，打印版和web版不同不显示    
-footer: #脚注多组
-  print: #打印版markdown或者html
-  screen:
-  - text: "Resume footer"
-  #   href: '/'
-  - text: "Made with &hearts; by Chocolateshushu"
-    href: "https://github.com/qiaokelishushu/CV/"
+# # footer 脚注，打印版和web版不同不显示    
+# footer: #脚注多组
+#   print: #打印版markdown或者html
+#   screen:
+#   - text: "Resume footer"
+#   #   href: '/'
+#   - text: "Made with &hearts; by Chocolateshushu"
+#     href: "https://github.com/qiaokelishushu/CV/"
 
-#页面额外js脚本，如xx统计
-scripts:
+# #页面额外js脚本，如xx统计
+# scripts:
 # - src: "assets/js/resume.js"
 # - defer: defer #可以设置defer或者sync异步加载
