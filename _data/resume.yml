@@ -44,7 +44,7 @@ main: #简历主要内容，
   content:
   - title: Programming Languages
     items: #itmems 可以小块的方式显示
-    - Familiar with Python (NumPy, Gensim, Pandas, Sklearn, matplotlib libraries, etc.), proficient in Phrase model, LDA model, Word2vec model, Bilstm-CRF model, Hidden Markov model, Perceptron classification, Conditional random field sequence labeling, Named entity recognition, Text clustering, Linear regression, Logistic regression, Decision tree model, Random forest algorithm, Bayesian network, etc.
+    - Familiar with Python (NumPy, Gensim, Pandas, Sklearn, matplotlib, Scrapy libraries, etc.), proficient in Phrase model, LDA model, Word2vec model, Bilstm-CRF model, Hidden Markov model, Perceptron classification, Conditional random field sequence labeling, Named entity recognition, Text clustering, Linear regression, Logistic regression, Decision tree model, Random forest algorithm, Bayesian network, etc.
     - SQL
 #     - 语言3
   - title: Other Skills
