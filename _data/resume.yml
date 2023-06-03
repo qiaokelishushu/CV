@@ -1,10 +1,10 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
-lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "朱熙"
-jobtitle: "产品经理" #可空不显示
+title: "Data Analysis"
+lang: "en" #语言设置 zh表示中文 en 表示英语
+name: "Chu Hee"
+jobtitle: "Data Analyst" #可空不显示
 
 
 #联系方式
@@ -18,56 +18,52 @@ contact: #联系方式连接等3~5行
 # - text: "your-website.com"
 #   href: 'http://your-website.com'
 #   icon: 'icons/web.svg'
-# - text: "GitHubID"
-#   href: 'https://github.com/NewFuture'
-#   icon: "icons/github.svg"
-#   attr: 'target="_blank"' #新标签页打开
+- text: "qiaokelishushu"
+  href: 'https://github.com/qiaokelishushu'
+  icon: "icons/github.svg"
+  attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: education #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 山西财经大学
-    duration: "2020年9月 - 2022年6月"
-    sub: 信息资源管理
-    detail: 硕士研究生学历，绩点排名：2/38  学习课程：数据库系统概论，Python程序设计，数据挖掘，信息检索理论与技术，信息安全，数据结构与算法
-  - title: 江苏大学京江学院
-    duration: "2015年9月 - 2019年6月"
-    sub: 土木工程
-    detail: 本科学历，绩点排名：5/97  学习课程：高等数学，概率论与数理统计，大学物理，线性代数，工程力学，流体力学，结构力学，材料力学
+  - title: Shanxi University of Finance and Economics
+    duration: "2020.9 - 2022.6"
+    sub: Information Science
+    detail: Master's degree,GPA ranking:2/38  Courses studied:Introduction to Database Systems, Python Programming, Data Mining, Theory and Technology of Information Retrieval, Information Security, Research on Library and Information Theory, Data Structures and Algorithms
+  - title: Jiangsu University Jingjiang College
+    duration: "2015.9 - 2019.6"
+    sub: Civil Engineering
+    detail: Bachelor's degree,GPA ranking: 5/97 Courses studied: Advanced Mathematics, Probability Theory and Mathematical Statistics, College Physics, Linear Algebra, Engineering Mechanics, Fluid Mechanics, Structural Mechanics, Material Mechanics
 
 - type: skill
-  name: "技能"
+  name: "Skills"
   content:
-  - title: 编程语言
+  - title: Programming Languages
     items: #itmems 可以小块的方式显示
-    - Python(熟悉NumPy库、Gensim库、Pandas库、Sklearn库、matplotlib库等)，熟练运用Phrase模型、LDA模型、Word2vec模型、Bilstm-CRF模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等
+    - Familiar with Python (NumPy, Gensim, Pandas, Sklearn, matplotlib libraries, etc.), proficient in Phrase model, LDA model, Word2vec model, Bilstm-CRF model, Hidden Markov model, Perceptron classification, Conditional random field sequence labeling, Named entity recognition, Text clustering, Linear regression, Logistic regression, Decision tree model, Random forest algorithm, Bayesian network, etc.
     - SQL
 #     - 语言3
-  - title: 其他技能
-    summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用PPT、visio等办公软件)、英语六级、Xmind、Axure;具有沟通、问题解决、创新思维、注重细节、研究、团队合作等能力
+  - title: Other Skills
+    summary: Linux system, Git version control system, Tableau visualization, PowerBi visualization, Computer Level 2 MS office, CET-6 , Xmind, Axure, Visio; possess communication, problem-solving, innovative thinking, attention to detail, research, teamwork abilities, etc.
 
 - type: experience
-  name: 工作经验
+  name: experience
   content:
-  - title: 金融科技岗
-    sub: 中国民生银行上海分行
-    duration: "2022年7月 - 2023年5月"
+  - title: Fintech Position
+    sub: China Minsheng Bank Shanghai Branch
+    duration: "2022.7 - 2023.5"
     tags:
-    - 产品经理助理
+    - Financial Risk Control Strategy Analyst
     summary:     
-    - 1.负责开发和管理多个金融产品，包括个人贷款、信用卡和理财产品。
-    - 2.与跨部门团队合作，包括市场营销、风险管理和技术团队，共同制定产品策略和规划。
-    - 3.调研市场需求、竞争对手和客户反馈，分析数据和趋势，以支持产品决策和优化。
-    - 4.管理产品生命周期，从概念开发到上线推广，包括需求定义、功能设计、测试和发布。
-    - 5.负责产品推广活动和培训，与销售团队合作，提供产品知识和支持，以促进销售和增加市场份额。
-    - 6.获得了卓越的业绩，实现了多个产品的成功推出和增长，提高了客户满意度和业务利润。
-    - 7.与客户保持良好的关系，收集和分析客户反馈，持续改进产品和服务。
-    - 8.参与制定和执行产品计划和预算，监控产品绩效和市场表现。
-    - 9.持续关注行业趋势和法规变化，为产品调整和创新提供建议。
+    - 1.Risk assessment and strategyformation: Responsible for assessing the credit risk of individual and corporate clients and formulating corresponding risk control strategies. By establishing and optimizing credit scoring models, the accuracy and efficiency of risk assessment have been improved. At the same time, according to the risk rating of customers, provide strategic suggestions for credit business to help the bank make better decisions.
+    - 2.Data analysis and model development: Use Python for a large amount of data analysis and processing work, including data cleaning, feature engineering, and data modeling. Using machine learning algorithms and deep learning models, such as random forests, logistic regression, neural networks, etc., to develop efficient risk prediction models.
+    - 3.Application and research of new technologies: Introduced and implemented new technologies using GPT-4 for natural language processing to analyze customer text information and improve the effect of risk assessment. And actively track the latest risk management technologies and trends to provide new perspectives and ideas for the bank's risk control strategy.
+    - 4.Cross-departmental cooperation and communication: Maintain close cooperation with the credit business department, IT department, and other relevant departments, coordinate the resources and needs of various departments, and ensure the smooth implementation of risk control strategies. At the same time, through regular reports and meetings, communicate the situation and progress of risk control to senior management and other team members.
+
 #     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
 #     # open: open
 #     #可以设置open默认展开
@@ -80,30 +76,31 @@ main: #简历主要内容，
 #     detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: 项目
+  name: Projects
   content:
-  - title: 民生银行上海分行直销银行项目
-    duration: 2022年8月 - 2023年5月
-    detail: 一.项目简介：作为产品经理助理，我在民生银行上海分行负责参与、管理民生直销银行（App和Web）的基金和保险产品，并参与了微信平台的管理和手机银行功能模块的优化。
-            二.主要工作：1.产品管理和开发：我进行同业调研，挖掘互联网客户需求，制定产品发展规划。我参与、负责洽谈商业合作，设计业务模式、功能、UI、营销方案，撰写业务方案和产品需求文档PRD，推动产品研发进度，并负责UAT测试。
-                     2.行业研究：我持续关注互联网金融最新动向，对比各类金融理财产品要素，跟踪各行业APP、Web、Html5最新功能及UI变化，形成调研报告、产品引入可行性分析。
-                     3.微信平台管理：我协助分行微信推送功能开发及故障排除。
-                     4.手机银行优化：我根据同业调研、客户诉求进行手机银行功能优化。
-            三.项目成果：1.成功管理和开发了民生直销银行的基金和保险产品，提高了产品的市场竞争力和客户满意度。
-                     2.通过行业研究，为公司提供了有价值的市场信息和产品引入建议，推动了公司的产品创新和业务发展。
-                     3.有效管理了微信平台，保证了信息推送的顺利进行，提高了客户的活跃度和忠诚度。
-                     4.优化了手机银行的功能，提高了产品的用户体验和满意度。
-    
-  - title: 民生银行上海分行e车贷项目
-    duration: 2022年8月 - 2023年5月
-    detail: 一.项目简介：在民生银行上海分行，我作为产品经理助理，负责了e车贷线上化贷款流程改造的项目。该项目旨在为客户提供更便捷的贷款申请方式，提高贷款的效率和准确性，同时也提升了银行的服务质量和品牌形象。
-            二.主要工作：1.产品设计和流程改造：我起拟了e车贷线上化产品流程图及需求方案，组织风控合规研讨确认方案，并与运营协调新流程改动点。我还与开发人员澄清需求，追踪开发排期及测试上线，并制作了系统新功能使用说明手册及演示视频。
-                     2.第三方合作和系统方案设计：我设计并上线了第三方合作渠道通过Open API对接e车贷小程序的系统方案。
-                     3.产品推广和营销：我负责设计产品营销工具，例如AI海报、一键测额、降息券等线上推广工具，并负责业务前线人员活动量管理工具的设计和上线。
-            三.项目成果：1.e车贷在业务前线使用率达95%以上，改变了业务线下手工录单模式。客户通过微信小程序自主申请贷款，件均放款时效提高40%。
-                     2.通过互联网营销工具推广使用，方便前线业务人员尤其在疫情期间开展线上化营销作业。业务人员收到的线上线索日均提升两倍。
-                     3.定期对活动进行管理和监控，及时调整活动策略，确保活动的顺利执行和达到预期的效果。
-                     4.通过数据分析，收集了持卡人的消费习惯和行为数据，为后续活动的优化和银行业务决策提供了有价值的信息。
+  - title: China Minsheng Bank Shanghai Branch Credit Scoring Card Project
+    duration: 2022.8 - 2023.5
+    detail: I. Project Introduction: During my tenure as a risk strategy analyst at China Minsheng Bank Shanghai Branch, I proposed and participated in an important project, using the GPT-4 model to assist in the development of credit scoring card models. The project aims to improve the accuracy and efficiency of credit risk assessment to better support the bank's credit decision-making process. By applying advanced natural language processing and deep learning technologies, we have developed an innovative scoring card model that can automatically analyze the text information of customer applications and predict their credit risk.
+            II. Main Work: 1. Data collection and cleaning: We collected a large amount of customer credit data, including customer personal information, credit history, loan details, etc. I used Python's Pandas library for data cleaning and preprocessing, deleted duplicate data, filled in missing values, and also converted some categorical data into numerical data.
+                           2. Feature engineering: I used the GPT-4 model to analyze the text of customer loan applications and extracted some important features, such as the sentiment orientation of the application reasons, keywords, etc. These features were used to enhance the predictive performance of the credit scoring card.
+                           3. Model training: I used decision tree models, random forest algorithms, etc. in Python's Sklearn library for model training. I also optimized the model with the GPT-4 model, which automatically wrote some code through its natural language generation capability, adjusted hyperparameters, and improved the accuracy of the model.
+                           4. Model testing and evaluation: After the model training was completed, I used the test dataset to test the model and evaluate the model's performance. The GPT-4 model also provided help in this process, generating a model evaluation report, and detailedly explaining the model's performance.
+            III. Project Results: 1. Improve the accuracy of credit assessment: By using the GPT-4 model, we can more comprehensively analyze the text information of customer applications and conduct a comprehensive assessment in conjunction with traditional credit data. This allows the scoring card model to more accurately predict the credit default risk of customers, reducing the bank's risk exposure.
+                                  2. Improve the efficiency of credit assessment: With the automation capability of theGPT-4 model, we can quickly process a large amount of application text, reducing the workload of manual processing. In this way, the bank's credit decision-making team can process applications more efficiently and make accurate decisions in a shorter time.
+                                  3. Technological innovation and knowledge sharing: This project brought opportunities for technological innovation to the Shanghai Branch of China Minsheng Bank. We actively researched and applied advanced natural language processing and deep learning technologies, promoted technical growth and exchange within the department through sharing knowledge and experience with team members. We continuously explored new models and algorithms and applied them to the field of credit assessment, bringing technological breakthroughs and innovations to the bank.
+  
+  - title: China Minsheng Bank Shanghai Branch Anti-Fraud Project
+    duration: 2022.8 - 2023.5
+    detail: I. Project Introduction: During my tenure as a risk strategy analyst at China Minsheng Bank Shanghai Branch, I was responsible for proposing and participating in an important project, using machine learning and artificial intelligence technology for fraud detection. The project aims to protect the bank from losses due to fraudulent activities and improve the ability to identify potential fraudulent activities. By applying advanced machine learning and artificial intelligence technologies, we have developed an innovative fraud detection system that can automatically analyze and identify suspicious transactions and accurately identify potential fraudulent activities.
+            II. Main Work: 1. Data collection and preprocessing: We collected a large amount of bank transaction data, including transaction time, amount, transaction type, customer information, etc. I used Python's Pandas library to preprocess the data, including cleaning up outliers, filling in missing data, standardizing numerical data, etc.
+                           2. Feature engineering: I used the GPT-4 model for text analysis, analyzing the transaction descriptions of customers, extracting important features such as transaction frequency, transaction patterns, etc., to improve the predictive performance of the model.
+                           3. Model training: I chose the random forest algorithm in Python's Sklearn library as our model, and used the collected data to train the model. GPT-4 also provided help in this process, automatically writing some code through its natural language generation capability, adjusting hyperparameters, and improving the accuracy of the model.
+                           4. Model testing and evaluation: After the model training was completed, I used the test dataset to test the model and evaluate the model's performance. The GPT-4 model also provided help in this process, generating a model evaluation report, and detailedly explaining the model's performance.
+           III. Project Results: 1. Reduce fraud losses: By using machine learning and artificial intelligence technology, we successfully reduced the fraud losses of China Minsheng Bank Shanghai Branch. By building an efficient fraud detection model, we can timely identify suspicious transaction behaviors and take necessary measures to mitigate the bank's risk exposure.
+                           2. Improve the efficiency of fraud detection: With the automation capability of machine learning and artificial intelligence technology, we can efficiently process a large amount of transaction data and accurately identify suspicious transaction behaviors. This efficiency helps the bank to detect fraud in a shorter time and take necessary actions.
+                           3. Enhance defensive capabilities: By introducing machine learning and artificial intelligence technology for fraud detection, we have improved the bank's defensive capabilities against evolving fraud methods. We continuously improve and optimize the fraud detection system to adapt to new fraud patterns and techniques, thereby better protecting the interests of the bank.
+                           4. Technological innovation and knowledge sharing: This project promoted technological innovation and knowledge sharing. By sharing the latest machine learning and artificial intelligence technologies with team members, we continuously improve and optimize the fraud detection system, improving the technical level and innovative capabilities of the team.
+
 
 #   - title: 基于机器学习的基金最大回撤恢复天数算法研究
 #     duration: 2022年12月 - 2023年1月
@@ -136,16 +133,16 @@ main: #简历主要内容，
 #  - 单行文字
 #  - 如果有可以继续添加
 
-#footer 脚注，打印版和web版不同不显示    
-# footer: #脚注多组
-#   print: #打印版markdown或者html
-#   screen:
-#   - text: "简历脚注"
-#   #   href: '/'
-#   - text: "Made with &hearts; by NewFuture"
-#     href: "https://github.com/NewFuture/CV/"
+footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  - text: "简历脚注"
+  #   href: '/'
+  - text: "Made with &hearts; by Chocolateshushu"
+    href: "https://github.com/qiaokelishushu/CV/"
 
 #页面额外js脚本，如xx统计
 scripts:
-#- src: "assets/js/resume.js"
-#  defer: defer #可以设置defer或者sync异步加载
+- src: "assets/js/resume.js"
+ defer: defer #可以设置defer或者sync异步加载
