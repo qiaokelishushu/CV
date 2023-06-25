@@ -1,16 +1,16 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "Data Science"
-lang: "en" #语言设置 zh表示中文 en 表示英语
-name: "Chu Hee"
-jobtitle: "Data Analyst" #可空不显示
+title: "简历标题"
+lang: "zh" #语言设置 zh表示中文 en 表示英语
+name: "朱熙"
+jobtitle: "产品经理" #可空不显示
 
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "coffeeforgithub@gmail.com" #文本内容
-  href: 'mailto:coffeeforgithub@gmail.com' #链接，无链接则空  
+- text: "coffeechocolate@foxmail.com" #文本内容
+  href: 'mailto:coffeechocolate@foxmail.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
 - text: "19392713532"
   href: 'tel:19392713532'
@@ -18,54 +18,65 @@ contact: #联系方式连接等3~5行
 # - text: "your-website.com"
 #   href: 'http://your-website.com'
 #   icon: 'icons/web.svg'
-- text: "qiaokelishushu"
-  href: 'https://github.com/qiaokelishushu'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
+# - text: "GitHubID"
+#   href: 'https://github.com/NewFuture'
+#   icon: "icons/github.svg"
+#   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: education #显示名称，空则使用type
+  name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: Shanxi University of Finance and Economics
-    duration: "2020.9 - 2022.6"
-    sub: Information Science
-    detail: Master's degree,GPA ranking:2/38  Courses studied:Introduction to Database Systems, Python Programming, Data Mining, Theory and Technology of Information Retrieval, Information Security, Research on Library and Information Theory, Data Structures and Algorithms
-  - title: Jiangsu University Jingjiang College
-    duration: "2015.9 - 2019.6"
-    sub: Civil Engineering
-    detail: Bachelor's degree,GPA ranking:5/97 Courses studied:Advanced Mathematics, Probability Theory and Mathematical Statistics, College Physics, Linear Algebra, Engineering Mechanics, Fluid Mechanics, Structural Mechanics, Material Mechanics
+  - title: 山西财经大学
+    duration: "2020年9月 - 2022年6月"
+    sub: 信息资源管理
+    detail: 硕士研究生学历，绩点排名：2/38  学习课程：数据库系统概论，Python程序设计，数据挖掘，信息检索理论与技术，信息安全，数据结构与算法
+  - title: 江苏大学京江学院
+    duration: "2015年9月 - 2019年6月"
+    sub: 土木工程
+    detail: 本科学历，绩点排名：5/97  学习课程：高等数学，概率论与数理统计，大学物理，线性代数，工程力学，流体力学，结构力学，材料力学
 
 - type: skill
-  name: "Skills"
+  name: "技能"
   content:
-  - title: Programming Languages
+  - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - Familiar with Python (NumPy, Gensim, Pandas, Sklearn, Matplotlib, Scrapy, Seaborn, NLTK, Keras, Tensorflow libraries, etc.), proficient in Phrase model, LDA model, Word2vec model, Bilstm-CRF model, Hidden Markov model, Perceptron classification, Conditional random field sequence labeling, Named entity recognition, Text clustering, Linear regression, Logistic regression, Decision tree model, Random forest algorithm, Bayesian network, etc.
+    - Python(熟悉NumPy库、Gensim库、Pandas库、Sklearn库、matplotlib库等)，熟练运用Phrase模型、LDA模型、Word2vec模型、Bilstm-CRF模型、隐马尔可夫模型、感知机分类、条件随机场序列标注、命名实体识别、文本聚类、线性回归、逻辑回归、决策树模型、随机森林算法、贝叶斯网络等
     - SQL
 #     - 语言3
-  - title: Other Skills
-    summary: Linux system, Git version control system, Tableau visualization, PowerBi visualization, Computer Level 2 MS office, CET-6 , Xmind, Axure, Visio; possess communication, problem-solving, innovative thinking, attention to detail, research, teamwork abilities, etc.
+  - title: 其他技能
+    summary: Linux系统、Git版本控制系统、Tableau可视化、PowerBi可视化、计算机二级MS office(熟练使用PPT、visio等办公软件)、英语六级、Xmind、Axure;具有沟通、问题解决、创新思维、注重细节、研究、团队合作等能力
 
 - type: experience
-  name: experience
+  name: 工作经验
   content:
-  - title: Fintech Position
-    sub: China Minsheng Bank Shanghai Branch
-    duration: "2022.7 - 2023.5"
+  - title: 产品助理
+    sub: 中国民生银行上海分行
+    duration: "2022年7月 - 2023年6月"
+    tags: 
+    - 
+    summary:     
+    - 负责开发和管理多个金融产品和优化手机APP功能
+
+  - title: 数据产品助理
+    sub: 滴滴
+    duration: "2021年11月 - 2022年5月"
     tags:
-    - Financial Risk Control Strategy Analyst
-    summary: 1.Risk Assessment and Strategy Formulation:Managed credit risk assessment and strategy development, improving risk assessment through optimized credit scoring models and providing strategic suggestions based on customer risk ratings.
-             2.Data Analysis and Model Development:Performed extensive data analysis using Python, and developed efficient risk prediction models using machine learning and deep learning models.
-             3.New Technology Application and Research:Implemented GPT-4 for natural language processing to enhance risk assessment, while actively tracking the latest risk management technologies.
-             4.Cross-Departmental Cooperation and Communication:Facilitated inter-departmental cooperation, ensuring smooth implementation of risk control strategies, and regularly communicated risk control updates to senior management and team members.
-#      detail: 1.Risk assessment and strategyformation:Responsible for assessing the credit risk of individual and corporate clients and formulating corresponding risk control strategies. By establishing and optimizing credit scoring models, the accuracy and efficiency of risk assessment have been improved. At the same time, according to the risk rating of customers, provide strategic suggestions for credit business to help the bank make better decisions.
-#       2.Data analysis and model development:Use Python for a large amount of data analysis and processing work, including data cleaning, feature engineering, and data modeling. Using machine learning algorithms and deep learning models, such as random forests, logistic regression, neural networks, etc., to develop efficient risk prediction models.
-#       3.Application and research of new technologies:Introduced and implemented new technologies using GPT-4 for natural language processing to analyze customer text information and improve the effect of risk assessment. And actively track the latest risk management technologies and trends to provide new perspectives and ideas for the bank's risk control strategy.
-#       4.Cross-departmental cooperation and communication:Maintain close cooperation with the credit business department, IT department, and other relevant departments, coordinate the resources and needs of various departments, and ensure the smooth implementation of risk control strategies. At the same time, through regular reports and meetings, communicate the situation and progress of risk control to senior management and other team members.
+    - 实习
+    summary:     
+    - 1．需求分析 梳理用户对产品的需求，分析用户的使用场景，管理需求池；使用 Viso制作产品主线功能
+         流程图，并建立思维导图，确定功能实现的优先级，对产品基本的功能模块和功能点进行梳理，为
+        后续原型设计及PRD的撰写提供思路。
+    - 2．原型设计 使用Axure完成产品的原型制作，经过审核评审，根据意见指导，完善功能模块及流程。
+    - 3．文档撰写 负责产品需求文档 (PRD)、操作手册等业务文档的撰写，根据流程图、思维脑图、产品原
+         型在文档中对产品页面元素及交互逻辑进行详细的描述，方便后续的产品设计及开发工作。
+    - 4．数据整理 用python统计、处理工作中产生的相关数据。
+    - 5．进度跟踪 跟踪项目进度，完成功能测试，定位问题所在及时反馈，检测产品完成度等。
+   
+#     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
 #     # open: open
 #     #可以设置open默认展开
 #   - title: Job Title
@@ -77,22 +88,30 @@ main: #简历主要内容，
 #     detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 - type: projects
-  name: Projects
+  name: 项目
   content:
-  - title: China Minsheng Bank Shanghai Branch Credit Scoring Card Project
-    duration: 2022.8 - 2023.5
-    detail: I. Project Introduction:As a risk strategy analyst at China Minsheng Bank Shanghai Branch, I encountered the challenge of improving the accuracy and efficiency of credit risk assessment.
-            II. Main Work:1. My task was to propose and implement a project using the GPT-4 model to develop credit scoring card models.
-                           2.  I led the collection and cleaning of extensive customer credit data, used Python's Pandas library for data preprocessing, and applied the GPT-4 model for feature engineering and model training. Post-training, I tested and evaluated the model using a test dataset.
-            III. Project Results:The project resulted in improved credit assessment accuracy and efficiency, reduced the bank's risk exposure, and promoted technological innovation and knowledge sharing within the bank.
-                                 
-  - title: China Minsheng Bank Shanghai Branch Anti-Fraud Project
-    duration: 2022.8 - 2023.5
-    detail: I. Project Introduction:As a risk strategy analyst at China Minsheng Bank Shanghai Branch, I faced the challenge of protecting the bank from losses due to fraudulent activities and improving fraud detection.
-            II. Main Work:1. My task was to propose and implement a project using machine learning and artificial intelligence for fraud detection.
-                           2. I led the collection and preprocessing of extensive bank transaction data, used Python's Pandas library for data preprocessing, and applied the GPT-4 model for feature engineering and model training. Post-training, I tested and evaluated the model using a test dataset.
-           III. Project Results:The project resulted in reduced fraud losses, improved efficiency of fraud detection, enhanced defensive capabilities against evolving fraud methods, and promoted technological innovation and knowledge sharing within the bank.
-                          
+  - title: 民生银行上海分行直销银行项目
+    duration: 2022年8月 - 2023年5月
+    detail: 一.项目简介：作为产品经理助理，我在民生银行上海分行负责参与、管理民生直销银行（App和Web）的基金和保险产品，并参与了微信平台的管理和手机银行功能模块的优化。
+            二.主要工作：1.产品管理和开发：我进行同业调研，挖掘互联网客户需求，制定产品发展规划。我参与、负责洽谈商业合作，设计业务模式、功能、UI、营销方案，撰写业务方案和产品需求文档PRD，推动产品研发进度，并负责UAT测试。
+                     2.行业研究：我持续关注互联网金融最新动向，对比各类金融理财产品要素，跟踪各行业APP、Web、Html5最新功能及UI变化，形成调研报告、产品引入可行性分析。
+                     3.微信平台管理：我协助分行微信推送功能开发及故障排除。
+                     4.手机银行优化：我根据同业调研、客户诉求进行手机银行功能优化。
+            三.项目成果：1.成功管理和开发了民生直销银行的基金和保险产品，提高了产品的市场竞争力和客户满意度。
+                     2.通过行业研究，为公司提供了有价值的市场信息和产品引入建议，推动了公司的产品创新和业务发展。
+                     3.有效管理了微信平台，保证了信息推送的顺利进行，提高了客户的活跃度和忠诚度。
+                     4.优化了手机银行的功能，提高了产品的用户体验和满意度。
+    
+  - title: 民生银行上海分行e车贷项目
+    duration: 2022年8月 - 2023年5月
+    detail: 一.项目简介：在民生银行上海分行，我作为产品经理助理，负责了e车贷线上化贷款流程改造的项目。该项目旨在为客户提供更便捷的贷款申请方式，提高贷款的效率和准确性，同时也提升了银行的服务质量和品牌形象。
+            二.主要工作：1.产品设计和流程改造：我起拟了e车贷线上化产品流程图及需求方案，组织风控合规研讨确认方案，并与运营协调新流程改动点。我还与开发人员澄清需求，追踪开发排期及测试上线，并制作了系统新功能使用说明手册及演示视频。
+                     2.第三方合作和系统方案设计：我设计并上线了第三方合作渠道通过Open API对接e车贷小程序的系统方案。
+                     3.产品推广和营销：我负责设计产品营销工具，例如AI海报、一键测额、降息券等线上推广工具，并负责业务前线人员活动量管理工具的设计和上线。
+            三.项目成果：1.e车贷在业务前线使用率达95%以上，改变了业务线下手工录单模式。客户通过微信小程序自主申请贷款，件均放款时效提高40%。
+                     2.通过互联网营销工具推广使用，方便前线业务人员尤其在疫情期间开展线上化营销作业。业务人员收到的线上线索日均提升两倍。
+                     3.定期对活动进行管理和监控，及时调整活动策略，确保活动的顺利执行和达到预期的效果。
+                     4.通过数据分析，收集了持卡人的消费习惯和行为数据，为后续活动的优化和银行业务决策提供了有价值的信息。
 
 #   - title: 基于机器学习的基金最大回撤恢复天数算法研究
 #     duration: 2022年12月 - 2023年1月
