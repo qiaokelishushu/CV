@@ -1,7 +1,7 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
+title: "朱熙_男_产品经理_2年工作经验"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "朱熙"
 jobtitle: "产品经理" #可空不显示
@@ -53,11 +53,11 @@ main: #简历主要内容，
 - type: experience
   name: 工作经验
   content:
-  - title: 产品助理
+  - title: 金融产品助理
     sub: 中国民生银行上海分行
     duration: "2022年7月 - 2023年6月"
     tags: 
-    - 
+    - 正式
     summary:     
     - 负责开发和管理多个金融产品和优化手机APP功能
 
